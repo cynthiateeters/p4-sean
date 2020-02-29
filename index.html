@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- IDMX About Me Starter Code
+    modified: 2019-12-22
+-->
+
+<html lang="en">
+
+<head>
+  <!--The HTML <head> element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. -->
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!--the body element contains all content shown to a visitor-->
+
+  <header class="header">
+    <!-- header shows logo and page title -->
+    <img class="logo" src="images/logo-96X96.svg" alt="Company Logo">
+    <h1 class="page-title">Web Dev I</h1>
+  </header>
+
+  <main class="main">
+    <!-- main envelopes important content -->
+
+    <section class="hero">
+      <!-- hero section: shows profile image, name & location -->
+      <h2>Hello, I am</h2>
+      <img class="my-picture" src="images/profile.png" alt="picture of me">
+      <div class="profile-title">
+        <p class="my-name">Sean Spear</p>
+        <p class="my-location">New Jersey</p>
+      </div>
+      <!-- close hero section -->
+    </section>
+
+    <section class="about-me">
+      <!-- about-me section shows bio info -->
+      <h2>Did you know...</h2>
+      <div class="content">
+        <p class="iama">I want to be...</p>
+        <p class="my-info">the very best, like no one ever was</p>
+        <p class="iama">My favorite way to work is...</p>
+        <p class="my-info">
+          independently. At my own pace
+        </p>
+        <p class="iama">In my free time, I like to...</p>
+        <p class="my-info">
+          play video games
+        </p>
+      </div>
+      <!-- close about-me section -->
+    </section>
+
+    <section class="gallery">
+      <!-- gallery section includes original images -->
+      <h2>Photo Gallery</h2>
+      <figure>
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/640w/snake-640w.jpg">
+          <img src="images/320w/snake-320w.jpg" alt="Snake">
+        </picture>
+        <figcaption>A snake on a log</figcaption>
+      </figure>
+      <hr>
+      <figure>
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/640w/butterfly-640w.jpg">
+          <img src="images/320w/butterfly-320w.jpg" alt="Butterfly">
+        </picture>
+        <figcaption>A butterfly</figcaption>
+      </figure>
+      <hr>
+      <figure>
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/640w/caterpillar-640w.jpg">
+          <img src="images/320w/caterpillar-320w.jpg" alt="Caterpillar">
+        </picture>
+        <figcaption>A caterpillar</figcaption>
+      </figure>
+    </section>
+
+    <!-- close main -->
+  </main>
+
+  <footer class="footer">Sean Spear 2020&copy;
+  </footer>
+</body>
+</html>
